@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385288603064",
+    "firebase_url": "https://trabalho-c9f97-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "trabalho-c9f97",
+    "storage_bucket": "trabalho-c9f97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385288603064:android:30fb64ed8f10ddb43b7b4d",
+        "android_client_info": {
+          "package_name": "com.example.controledeflores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385288603064-d9ctcq0tpdejrfhj24q79i2b917js307.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.controledeflores",
+            "certificate_hash": "a8715e12614d44b036b1385b3a746c16d79fbf23"
+          }
+        },
+        {
+          "client_id": "385288603064-b7674mofgbeeusqktbdlfqtk9ugf6ede.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmBzQskRrIeZg5dN3voSBID5xmE6829nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385288603064-b7674mofgbeeusqktbdlfqtk9ugf6ede.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
