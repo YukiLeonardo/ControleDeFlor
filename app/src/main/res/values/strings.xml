@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ControleDeFlores</string>
+    <string name="app_name">Controle De Flor</string>
+    <string name="button">Salvar</string>
+    <string name="editar">Editar</string>
+    <string name="entre_com_se_nome">Entre com se nome</string>
+    <string name="hin_informe_sua_rua">Informe sua Rua</string>
+    <string name="deletar">DELETAR</string>
 </resources>
