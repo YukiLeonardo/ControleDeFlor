@@ -5,4 +5,19 @@
     <string name="entre_com_se_nome">Entre com se nome</string>
     <string name="hin_informe_sua_rua">Informe sua Rua</string>
     <string name="deletar">DELETAR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="sair">Sair</string>
+    <string name="listar">Listar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="entre_com_o_nome">entre_com_o_nome</string>
+    <string name="entre_com_a_data_de_nascimento">entre_com_a_data_de_nascimento</string>
+    <string name="entre_com_o_credito">entre_com_o_credito</string>
+    <string name="salvar">salvar</string>
+    <string name="entre_com_o_nome_da_flor">entre_com_o_nome_da_flor</string>
+    <string name="tipo_da_flor">Tipo da flor</string>
+    <string name="encomenda">Encomenda</string>
+    <string name="flor">Flor</string>
+    <string name="cliente">cliente</string>
 </resources>

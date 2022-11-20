@@ -37,7 +37,8 @@
             android:layout_height="38dp"
             android:text="@string/editar"
             tools:layout_editor_absoluteX="303dp"
-            tools:layout_editor_absoluteY="-2dp" />
+            tools:layout_editor_absoluteY="-2dp"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/remover"
@@ -46,5 +47,6 @@
             android:onClick="@string/deletar"
             android:text="@string/deletar"
             tools:layout_editor_absoluteX="303dp"
-            tools:layout_editor_absoluteY="36dp" />
+            tools:layout_editor_absoluteY="36dp"
+            tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="idEncomenda" type="id" />
+    <item name="idCliente" type="id" />
+    <item name="idFlor" type="id" />
+</resources>

@@ -33,7 +33,6 @@ public class ClienteAdapter extends RecyclerView.Adapter<ClienteAdapter.ClienteH
     @Override
     public void onBindViewHolder(@NonNull ClienteHolder clienteHolder, int position) {
         clienteHolder.nome.setText(dados.get(position).getNome());
-        clienteHolder.nome2.setText(dados.get(position).getRua());
     }
     @Override
     public int getItemCount() {

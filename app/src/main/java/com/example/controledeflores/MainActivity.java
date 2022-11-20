@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.CycleInterpolator;
@@ -37,23 +38,43 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutManager=new LinearLayoutManager(this);
 
             dados= new LinkedList();
-            db= new DBHelper(this);
             clienteDB = new ClienteDB(db);
             clienteDB.list(dados);
             adapter = new ClienteAdapter(dados);
             recyclerView = findViewById(R.id.idLista);
             recyclerView.setLayoutManager(linearLayoutManager);
             recyclerView.setAdapter(adapter);
+            db = new DBHelper(this);
 
 
         }
-        public void salvar(View view){
-            Cliente cliente = new Cliente();
-            cliente.setNome(((EditText)findViewById(R.id.id_nome)).getText().toString());
-            ClienteDB clienteDB = new ClienteDB(db);
-            clienteDB.insert(cliente);
-            clienteDB.list(dados);
-            adapter.notifyDataSetChanged();
+    public void segundaTela(View view){
+        switch (view.getId()){
+            case R.id.idEncomenda:
+                startActivity(new Intent(this,SegundaActivity.class)
+                        .putExtra("fragmento", "Encomenda"));
+                break;
+            case R.id.idCliente:
+                startActivity(new Intent(this,SegundaActivity.class).
+                        putExtra("fragmento", "Cliente"));
+                break;
+            case R.id.idFlor:
+                startActivity(new Intent(this,SegundaActivity.class).
+                        putExtra("fragmento", "Flor"));
+                break;
+        }
+
+    }
+    public void sair(View view){
+        finish();
+    }
+    public void salvar(View view){
+        Cliente cliente = new Cliente();
+        cliente.setNome(((EditText)findViewById(R.id.idNomeCLiente)).getText().toString());
+        ClienteDB clienteDB = new ClienteDB(db);
+        clienteDB.insert(cliente);
+        clienteDB.list(dados);
+        adapter.notifyDataSetChanged();
 
     }
 }
